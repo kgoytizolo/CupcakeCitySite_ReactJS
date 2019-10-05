@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.headerStyle {
+    height: 100 px;
+    background-color: #ffe2db;
+    color: #CC9385;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSectionName {
+    float:right;  
+    margin-right: 1%;
+}
+
+.contentMain, .contentMain2{
+    margin: 0%;
+}
+
+.registration{
+    margin: 2%;
+}
+
+.actionMessage{
+    color: #CC9385;
+}
