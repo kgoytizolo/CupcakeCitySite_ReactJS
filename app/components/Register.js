@@ -6,7 +6,7 @@ import '../css/style.css';
 function Register(){
 
     return(
-        <div id ='register'>
+        <div id ='register' className='registration'>
             <User action='R' />
             <Product />                                          
         </div>
