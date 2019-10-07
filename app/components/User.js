@@ -25,7 +25,7 @@ class User extends Component{
     }
 
     //************** User's events ****************************/
-    handleInputChange(event){                                   //For input forms only - updates the state key corresponding to the given input name
+    handleInputChange(event){                                                                       //For input forms only - updates the state key corresponding to the given input name
         const {name, value, type, checked} = event.target;                                          //Event properties ---> Similar to: [event.target.name]: event.target.value   (inside this.setState)
         type === "checkbox" ? this.setState({[name]: checked}) : this.setState({[name]: value})     //In Js, [] represents string values (ES6 computed property name syntax)
     }
